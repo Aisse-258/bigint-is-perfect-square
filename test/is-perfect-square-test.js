@@ -52,7 +52,7 @@ describe("Testing isFullSquare(value) function", function(){
 		done();
 	});
 	it("Should return false if number is not positive", function(done){
-		expect(isFullSquare(0n)).to.equal(true);
+		expect(isFullSquare(0n)).to.equal(false);
 		expect(isFullSquare(-4n)).to.equal(false);
 		expect(isFullSquare(-5n)).to.equal(false);
 		done();
